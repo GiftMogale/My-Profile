@@ -118,8 +118,8 @@ a:hover{
 
 img{
     display: block;
-    width: 100%;
-    object-fit: cover;
+    inline-size: 100%;
+    object-fit:cover;
 }
 
 /*=========Media Query (Medium Devices) e.g Tablets ============ */
