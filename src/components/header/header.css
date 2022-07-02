@@ -90,10 +90,46 @@ header {
 
 @media screen and (max-width:1024px){
 header{
-    height:68vh;
+    height:100vh;
 }
 
 }
+
+
+
+/*=========Media Query (Very very very Small Devices)  ============ */
+
+
+@media screen and (max-width:900px){
+
+    header{
+        height:120vh;
+    }
+
+    .header_socials,
+    .scroll_down{
+        display: none;
+    }
+}
+
+
+
+/*=========Media Query (Small Devices)  ============ */
+
+
+@media screen and (max-width:800px){
+
+    header{
+        height:100vh;
+    }
+
+    .header_socials,
+    .scroll_down{
+        display: none;
+    }
+
+}
+
 
 
 /*=========Media Query (Small Devices)  ============ */
@@ -136,6 +172,22 @@ header{
 
     header{
         height:100vh;
+    }
+
+    .header_socials,
+    .scroll_down{
+        display: none;
+    }
+}
+
+
+/*=========Media Query (Very very very Small Devices)  ============ */
+
+
+@media screen and (max-width:375px){
+
+    header{
+        height:120vh;
     }
 
     .header_socials,
