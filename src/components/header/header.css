@@ -74,6 +74,18 @@ header {
 
 
 
+
+/*=========Media Query (Large Devices)  ============ */
+
+@media screen and (max-width:1200px){
+    header{
+        height:180vh;
+    }
+
+
+}
+
+
 /*=========Media Query (Medium Devices) e.g Tablets ============ */
 
 @media screen and (max-width:1024px){
@@ -98,4 +110,15 @@ header{
         display: none;
     }
 
+}
+
+
+/*=========Media Query (Very Small Devices)  ============ */
+
+
+@media screen and (max-width:400px){
+
+    header{
+        height:150vh;
+    }
 }
