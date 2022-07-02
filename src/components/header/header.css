@@ -119,6 +119,27 @@ header{
 @media screen and (max-width:400px){
 
     header{
-        height:150vh;
+        height:130vh;
+    }
+
+    .header_socials,
+    .scroll_down{
+        display: none;
+    }
+}
+
+
+/*=========Media Query (Very very Small Devices)  ============ */
+
+
+@media screen and (max-width:390px){
+
+    header{
+        height:100vh;
+    }
+
+    .header_socials,
+    .scroll_down{
+        display: none;
     }
 }
