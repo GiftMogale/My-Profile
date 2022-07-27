@@ -15,7 +15,7 @@ background: linear-gradient(
 display:grid;
 place-items: center;
 }
-
+/*  */
 .about__me-image{
 border-radius: 2rem;
 overflow: hidden;
